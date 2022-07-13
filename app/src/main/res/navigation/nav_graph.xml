@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.store.activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </activity>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.store.activities.HomeActivity"
+        android:label="app_bar_home"
+        tools:layout="@layout/app_bar_home" >
+        <action
+            android:id="@+id/action_homeActivity_to_questionsActivity"
+            app:destination="@id/questionsActivity" />
+        <action
+            android:id="@+id/action_homeActivity_to_myquestionsActivity"
+            app:destination="@id/myquestionsActivity" />
+        <action
+            android:id="@+id/action_homeActivity_to_triviaActivity"
+            app:destination="@id/triviaActivity" />
+        <action
+            android:id="@+id/action_homeActivity_to_postActivity2"
+            app:destination="@id/postActivity2" />
+    </activity>
+    <activity
+        android:id="@+id/questionsActivity"
+        android:name="com.example.store.activities.QuestionsActivity"
+        android:label="activity_questions"
+        tools:layout="@layout/activity_questions" >
+        <action
+            android:id="@+id/action_questionsActivity_to_questionActivity"
+            app:destination="@id/questionActivity" />
+    </activity>
+    <activity
+        android:id="@+id/myquestionsActivity"
+        android:name="com.example.store.activities.MyquestionsActivity"
+        android:label="activity_myquestions"
+        tools:layout="@layout/activity_myquestions" />
+    <activity
+        android:id="@+id/triviaActivity"
+        android:name="com.example.store.activities.TriviaActivity"
+        android:label="activity_trivia"
+        tools:layout="@layout/activity_trivia" />
+    <activity
+        android:id="@+id/postActivity2"
+        android:name="com.example.store.activities.PostActivity"
+        android:label="activity_post"
+        tools:layout="@layout/activity_post" >
+        <action
+            android:id="@+id/action_postActivity2_to_questionsActivity"
+            app:destination="@id/questionsActivity" />
+    </activity>
+    <activity
+        android:id="@+id/questionActivity"
+        android:name="com.example.store.activities.QuestionActivity"
+        android:label="activity_question"
+        tools:layout="@layout/activity_question" />
+</navigation>

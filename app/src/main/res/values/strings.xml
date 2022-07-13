@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Questions</string>
+    <string name="facebook_app_id">1657883127727282</string>
+    <string name="fb_login_protocol_scheme">fb1657883127727282</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<!--    <string name="backend_base_url">http://10.0.2.2:3000/</string>-->
+    <string name = "backend_base_url">https://mobilehassaanfinal.herokuapp.com/</string>
+    <!-- https://mobilehassaan.herokuapp.com/     and instead use https-->
+    
+    <string-array name="categories">
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Entertainment</item>
+        <item>Language</item>
+        <item>Politics</item>
+    </string-array>
+</resources>

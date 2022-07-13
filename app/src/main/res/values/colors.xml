@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1182ba</color>
+    <color name="colorPrimaryDark">#072842</color>
+    <color name="colorAccent">#99bbcc</color>
+
+    <color name="SportsCard">#1A2C4B08</color>
+
+
+
+    <color name="counter_negative">#d43631</color>
+    <color name="counter_positive">#116617</color>
+    <color name="counter_neutral">#050505</color>
+</resources>
